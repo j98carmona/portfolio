@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Jorge Carmona, proyectos web de todos los ámbitos posibles</title>
+    <meta name="description"
+        content="Portfolio de Jorge Carmona, desarrollador web en Valencia. Galería de proyectos web de restaurantes, gimnasios, tiendas, peluquerías, cafeterías y cursos.">
+    <!-- Las rutas empiezan por ../ porque esta página está dentro de la carpeta views -->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <a href="../index.html">Jorge Carmona</a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <!-- La clase "active" se utiliza para resaltar la página actual -->
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="presupuestos.html">Presupuestos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Portfolio</h1>
+            <p>Algunos de los proyectos en los que he trabajado. Pulsa sobre una imagen para verla en grande.</p>
+            <!-- Galería en miniaturas: cada imagen enlaza a la foto en grande -->
+            <div class="miniaturas">
+                <figure>
+                    <a href="../images/restaurante.jpg">
+                        <img src="../images/restaurante.jpg" alt="Foto de la distribución de un restaurante"
+                            title="Restaurante" width="600" height="400">
+                    </a>
+                    <figcaption>Web de un restaurante</figcaption>
+                </figure>
+                <figure>
+                    <a href="../images/gimnasio.jpg">
+                        <img src="../images/gimnasio.jpg" alt="Foto de la distribución de un gimnasio" title="Gimnasio"
+                            width="600" height="400">
+                    </a>
+                    <figcaption>Web de un gimnasio</figcaption>
+                </figure>
+                <figure>
+                    <a href="../images/ropa.jpg">
+                        <img src="../images/ropa.jpg" alt="Foto de algunas prendas de la tienda"
+                            title="Tienda Streetwear" width="600" height="400">
+                    </a>
+                    <figcaption>Web de una tienda de ropa</figcaption>
+                </figure>
+                <figure>
+                    <a href="../images/peluqueria.jpg">
+                        <img src="../images/peluqueria.jpg" alt="Foto del interior de una peluquería" title="Peluquería"
+                            width="600" height="400">
+                    </a>
+                    <figcaption>Web de una peluquería</figcaption>
+                </figure>
+                <figure>
+                    <a href="../images/cafeteria.jpg">
+                        <img src="../images/cafeteria.jpg" alt="Foto del interior de una cafetería" title="Cafetería"
+                            width="600" height="400">
+                    </a>
+                    <figcaption>Web de una cafetería</figcaption>
+                </figure>
+                <figure>
+                    <a href="../images/ceramica.jpg">
+                        <img src="../images/ceramica.jpg" alt="Foto de un curso de cerámica" title="Curso de cerámica"
+                            width="600" height="400">
+                    </a>
+                    <figcaption>Web de un curso de cerámica</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <!-- Pie de página con la dirección, redes sociales y aviso legal -->
+    <footer>
+        <address>
+            Jorge Carmona<br>
+            Camino de Moncada, 86<br>
+            46025 Valencia
+        </address>
+        <ul>
+            <li><a href="https://github.com/j98carmona">
+                    <img src="../images/github.jpg" alt="GitHub" width="32" height="32">
+                </a></li>
+            <li><a href="https://www.linkedin.com/in/jorge-carmona-gradol%C3%AD-3021212ab/">
+                    <img src="../images/linkedin.jpg" alt="LinkedIn" width="32" height="32">
+                </a></li>
+            <li><a href="https://www.instagram.com">
+                    <img src="../images/instagram.jpg" alt="Instagram" width="32" height="32">
+                </a></li>
+        </ul>
+        <a href="aviso-legal.html">Aviso legal</a>
+    </footer>
+</body>
+
+</html>

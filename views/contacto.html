@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Jorge Carmona, desarrollador web en Valencia</title>
+    <meta name="description"
+        content="Página de contacto de Jorge Carmona, desarrollador web en Valencia. Escríbeme por email, teléfono o con el formulario y te responderé lo antes posible.">
+    <!-- Las rutas empiezan por ../ porque esta página está dentro de la carpeta views -->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <a href="../index.html">Jorge Carmona</a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="presupuestos.html">Presupuestos</a></li>
+                <!-- La clase "active" se utiliza para resaltar la página actual -->
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Datos de contacto -->
+        <section>
+            <h1>Contacto</h1>
+            <p>Si deseas ponerte en contacto conmigo, puedes hacerlo a través de los siguientes medios:</p>
+            <ul>
+                <li>Email: jorge.carmona@example.com</li>
+                <li>Teléfono: +34 123 456 789</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/jorge-carmona-gradol%C3%AD-3021212ab/">Jorge
+                        Carmona</a></li>
+            </ul>
+        </section>
+        <!-- Formulario de contacto -->
+        <section>
+            <h2>Ponte en contacto conmigo</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="mensaje">Solicite más información:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </p>
+                <p>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </p>
+                <!-- Casilla de privacidad obligatoria -->
+                <p>
+                    <input type="checkbox" id="privacidad" name="privacidad" required>
+                    <label for="privacidad">He leído y acepto el <a href="aviso-legal.html">aviso legal</a></label>
+                </p>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <!-- Mapa de la ubicación -->
+        <section>
+            <h2>Dónde encontrarme</h2>
+            <img src="../images/mapa.jpg" alt="Mapa con mi ubicación" width="800" height="400">
+        </section>
+    </main>
+    <!-- Pie de página con la dirección, redes sociales y aviso legal -->
+    <footer>
+        <address>
+            Jorge Carmona<br>
+            Camino de Moncada, 86<br>
+            46025 Valencia
+        </address>
+        <ul>
+            <li><a href="https://github.com/j98carmona">
+                    <img src="../images/github.jpg" alt="GitHub" width="32" height="32">
+                </a></li>
+            <li><a href="https://www.linkedin.com/in/jorge-carmona-gradol%C3%AD-3021212ab/">
+                    <img src="../images/linkedin.jpg" alt="LinkedIn" width="32" height="32">
+                </a></li>
+            <li><a href="https://www.instagram.com">
+                    <img src="../images/instagram.jpg" alt="Instagram" width="32" height="32">
+                </a></li>
+        </ul>
+        <a href="aviso-legal.html">Aviso legal</a>
+    </footer>
+</body>
+
+</html>
