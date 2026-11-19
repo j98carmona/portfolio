@@ -4,7 +4,8 @@ Sitio web de portfolio personal creado con HTML5 y CSS3 como trabajo final del m
 
 ## Enlace a la web
 
-https://j98carmona.github.io/portfolio/
+- Repositorio GitHub: https://github.com/j98carmona/portfolio
+- GitHub Pages: https://j98carmona.github.io/portfolio/
 
 ## Páginas
 
